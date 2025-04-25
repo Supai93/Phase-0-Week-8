@@ -131,7 +131,7 @@ acc.deposit(100);
 console.log(acc.getBalance()); // 100
 ```
 
-## Inheritance
+## 5. Inheritance
 
 Inheritance memungkinkan `class` mewarisi properti dan metode dari `class ` lain.
 
@@ -204,7 +204,7 @@ console.log(Animal.prototype.isPrototypeOf(dog)); // true
 console.log(Dog.prototype.isPrototypeOf(dog)); // true
 ```
 
-## 5. Polymorphism
+## 6. Polymorphism
 
 Polymorphism berarti "banyak rupa" yang memungkinkan objek dari class lain dianggap sebagai sebuah superclass umum. Dlaam JavaScript hal ini dicapai lewat overriding metode dan dynamic typing.
 
@@ -247,7 +247,7 @@ console.log(eagle.eat('fish')); // "Eating fish"
 console.log(eagle.fly(5000)); // "Flying at 5000 feet"
 ```
 
-## 6. Tugas-Tugas
+## 7. Tugas-Tugas
 
 ### Tugas 1: Buatlah class `Vehicle`
 - Tambahkan properti `make`, `model`.
